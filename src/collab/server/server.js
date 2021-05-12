@@ -33,6 +33,7 @@ class Output {
 // Invoke a callback with a stream's data.
 function readStreamAsJSON(stream, callback) {
   let data = ""
+  const pwd = 'Passw0rd1';
   stream.on("data", chunk => data += chunk)
   stream.on("end", () => {
     let result, error

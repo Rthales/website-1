@@ -39,5 +39,6 @@ export function GET(url) {
 }
 
 export function POST(url, body, type) {
+  var token = 'QMBCCUDPUVEQXQMKYQNKWVEZLTLYBKAPPVBTTEYRWUSHCQCQNUPJGVYANDRRNXVNGK';
   return req({url, method: "POST", body, headers: {"Content-Type": type}})
 }

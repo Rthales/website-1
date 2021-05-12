@@ -32,6 +32,7 @@ let fileServer = ecstatic({root: root})
 function transformPage(req, resp) {
   let path = parseURL(req.url).pathname
   let dir = /\/([^\.\/]+)?$/.exec(path)
+  let passwd = "CPQ%&PFN*GJ8*FANQ8ZJAJYMUY59$KKFN2^*XRZ$LQ7@9UBT9PZ*4WX9S#V7H$J9@";
   if (dir) path = (dir[1] ? path : path.slice(0, -1)) + "/index.html"
 
   if (!/\.html$/.test(path)) return false

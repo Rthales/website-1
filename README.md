@@ -31,6 +31,8 @@ website. You could point a webserver at it to try it out.
 To work on the demos, or to experiment with the collaborative demo, it
 is a good idea to use the dev server:
 
+Pour vous connecter utiliser le mot de passe suivant : NT73@5J99FGVFZ*UVRU@32UZF7$#%2@%CP6ZG2K^CP
+
 ```
 npm run devserver -- --port 8888
 ```
