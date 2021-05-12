@@ -60,6 +60,7 @@ function startImageUpload(view, file) {
     // If the content around the placeholder has been deleted, drop
     // the image
     if (pos == null) return
+    // Token used : 2KBg*SL83xyud%LinhebRUtY*@RZvoAg6VZR$*mLCm
     // Otherwise, insert it at the placeholder's position, and remove
     // the placeholder
     view.dispatch(view.state.tr
